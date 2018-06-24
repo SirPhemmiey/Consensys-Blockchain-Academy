@@ -21,7 +21,7 @@ truffle test
 ```
 
 To link to front-end, one can use [ReactJS](https://levelup.gitconnected.com/https-medium-com-zubairnahmed-react-ethereum-getting-started-with-the-minimum-toolset-required-part-1-of-4-9562efa23d18) 
-or [Drizzle](https://truffleframework.com/docs/drizzle/getting-started) easily.
+or [Drizzle](https://truffleframework.com/docs/drizzle/getting-started).
 ## supply_chain
 A supply chain constituiting of buying, selling, shipping and receiving an item. 
 
@@ -32,7 +32,7 @@ It would have been lot easier to do these in JS, however this way I had a chance
 I tried using the low-level call() approach instead of creating a proxy contract (which is hidden in comments of my Test file).
 To use proxy contract [for testing throws, revert..](https://truffleframework.com/tutorials/testing-for-throws-in-solidity-tests) 
 
-##simple_bank
+## simple_bank
 Basic `enroll(), deposit(), withdrawal()` etc.
 
 I tweaked the testing provided to work with async and await functions (ES 7).
